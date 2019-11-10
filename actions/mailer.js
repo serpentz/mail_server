@@ -417,7 +417,7 @@ async function main(from,to,subject="",text="") {
         pool: true,
         host: 'smtp.gmail.com',
         port: 587,
-        secure: true, // true for 46s5, false for other ports
+        secure: false, // true for 46s5, false for other ports
         auth: {
             user: "ticonlabs@gmail.com", // generated ethereal user
             pass: "android1990" // generated ethereal password
