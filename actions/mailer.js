@@ -19,7 +19,7 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
     <!--[if !mso]><!-->
    	<link href="https://fonts.googleapis.com/css?family=Kreon:400,700|Playfair+Display:400,400i,700,700i|Raleway:400,400i,700,700i|Roboto:400,400i,700,700i" rel="stylesheet">
     <!--<![endif]-->
-	<title>*|MC:SUBJECT|*</title>
+	<title>Hello! Thank you for your interest in working w/ Ticon!</title>
 	<!--[if gte mso 9]>
 	<style type="text/css" media="all">
 		sup { font-size: 100% !important; }
@@ -97,7 +97,7 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 <body class="body" style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#1e52bd; -webkit-text-size-adjust:none;">
 <!--*|IF:MC_PREVIEW_TEXT|*-->
 		<!--[if !gte mso 9]><!-->
-		<span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">*|MC_PREVIEW_TEXT|*</span>
+		<span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Hello! Thank you for your interest in working w/ Ticon!</span>
 		<!--<![endif]-->
 	<!--*|END:IF|*-->
 	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1e52bd">
@@ -126,11 +126,11 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 															<td align="right">
 																<table class="center" border="0" cellspacing="0" cellpadding="0" style="text-align:center;">
 																	<tbody><tr>
-																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/free_ico_facebook.jpg" width="14" height="13" mc:edit="image_1" style="max-width:14px;" border="0" alt=""></a></td>
-																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/free_ico_twitter.jpg" width="14" height="13" mc:edit="image_2" style="max-width:14px;" border="0" alt=""></a></td>
-																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/free_ico_gplus.jpg" width="14" height="13" mc:edit="image_3" style="max-width:14px;" border="0" alt=""></a></td>
-																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/free_ico_pinterest.jpg" width="14" height="13" mc:edit="image_4" style="max-width:14px;" border="0" alt=""></a></td>
-																		<td class="img" width="14" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/free_ico_instagram.jpg" width="14" height="13" mc:edit="image_5" style="max-width:14px;" border="0" alt=""></a></td>
+																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/14" width="14" height="13" mc:edit="image_1" style="max-width:14px;" border="0" alt=""></a></td>
+																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/14" width="14" height="13" mc:edit="image_2" style="max-width:14px;" border="0" alt=""></a></td>
+																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/14" width="14" height="13" mc:edit="image_3" style="max-width:14px;" border="0" alt=""></a></td>
+																		<td class="img" width="32" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/14" width="14" height="13" mc:edit="image_4" style="max-width:14px;" border="0" alt=""></a></td>
+																		<td class="img" width="14" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/14" width="14" height="13" mc:edit="image_5" style="max-width:14px;" border="0" alt=""></a></td>
 																	</tr>
 																</tbody></table>
 															</td>
@@ -144,7 +144,7 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 								<!-- END Top bar -->
 								<!-- Logo -->
 								<tr>
-									<td bgcolor="#ffffff" class="p30-15 img-center" style="padding: 30px; border-radius: 20px 20px 0px 0px; font-size:0pt; line-height:0pt; text-align:center;"><a href="#" target="_blank"><img src="images/free_logo.jpg" width="146" height="17" mc:edit="image_6" style="max-width:146px;" border="0" alt=""></a></td>
+									<td bgcolor="#ffffff" class="p30-15 img-center" style="padding: 30px; border-radius: 20px 20px 0px 0px; font-size:0pt; line-height:0pt; text-align:center;"><a href="#" target="_blank"><img src="https://via.placeholder.com/146x17" width="146" height="17" mc:edit="image_6" style="max-width:146px;" border="0" alt=""></a></td>
 								</tr>
 								<!-- END Logo -->
 								<!-- Nav -->
@@ -159,19 +159,19 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 							<div mc:repeatable="Select" mc:variant="Section 1">
 								<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ebebeb">
 									<tbody><tr>
-										<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="images/hero.jpg" width="650" height="358" mc:edit="image_7" style="max-width:650px;" border="0" alt=""></td>
+										<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="https://via.placeholder.com/650x358" width="650" height="358" mc:edit="image_7" style="max-width:650px;" border="0" alt=""></td>
 									</tr>
 									<tr>
 										<td class="p30-15-0" style="padding: 50px 30px 0px;" bgcolor="#ffffff">
 											<table width="100%" border="0" cellspacing="0" cellpadding="0">
 												<tbody><tr>
-													<td class="h5-center" style="color:#a1a1a1; font-family:'Raleway', Arial,sans-serif; font-size:16px; line-height:22px; text-align:center; padding-bottom:5px;"><div mc:edit="text_3">Ut enim minim Veniam Quis</div></td>
+													<td class="h5-center" style="color:#a1a1a1; font-family:'Raleway', Arial,sans-serif; font-size:16px; line-height:22px; text-align:center; padding-bottom:5px;"><div mc:edit="text_3">Ticon labs LLC</div></td>
 												</tr>
 												<tr>
-													<td class="h2-center" style="color:#000000; font-family:'Playfair Display', Times, 'Times New Roman', serif; font-size:32px; line-height:36px; text-align:center; padding-bottom:20px;"><div mc:edit="text_4">Darure Reprehenderit Velit!</div></td>
+													<td class="h2-center" style="color:#000000; font-family:'Playfair Display', Times, 'Times New Roman', serif; font-size:32px; line-height:36px; text-align:center; padding-bottom:20px;"><div mc:edit="text_4">Welcome to our World!</div></td>
 												</tr>
 												<tr>
-													<td class="text-center" style="color:#5d5c5c; font-family:'Raleway', Arial,sans-serif; font-size:14px; line-height:22px; text-align:center; padding-bottom:22px;"><div mc:edit="text_5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo conse.</div></td>
+													<td class="text-center" style="color:#5d5c5c; font-family:'Raleway', Arial,sans-serif; font-size:14px; line-height:22px; text-align:center; padding-bottom:22px;"><div mc:edit="text_5">Here at Ticon we strive at perfection, and our work speaks for itself.</div></td>
 												</tr>
 												<tr>
 													<td align="center">
@@ -190,142 +190,11 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 							<!-- END Section 1 -->
 
 							<!-- Section 2 -->
-							<div mc:repeatable="Select" mc:variant="Section 2">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0">
-									<tbody><tr>
-										<td>
-											<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dde8fd">
-												<tbody><tr>
-													<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="images/free_white_blue.jpg" width="650" height="162" mc:edit="image_8" style="max-width:650px;" border="0" alt=""></td>
-												</tr>
-												<tr>
-													<td class="p0-15" style="padding: 0px 30px;">
-														<table width="100%" border="0" cellspacing="0" cellpadding="0">
-															<tbody><tr>
-																<td class="h2-center" style="color:#000000; font-family:'Playfair Display', Times, 'Times New Roman', serif; font-size:32px; line-height:36px; text-align:center; padding-bottom:20px;"><div mc:edit="text_7">Upcoming Events</div></td>
-															</tr>
-															<tr>
-																<td class="pb40" style="padding-bottom:40px;">
-																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																		<tbody><tr>
-																			<td class="event-separator" style="padding-bottom:40px; border-bottom:1px solid #ffffff;">
-																				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																					<tbody><tr>
-																						<th class="column-top" width="60" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
-																							<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																								<tbody><tr>
-																									<td class="date" style="color:#000000; font-family:'Raleway', Arial,sans-serif; font-size:12px; line-height:16px; text-align:left; padding-bottom:6px;"><div mc:edit="text_8">Sept</div></td>
-																								</tr>
-				 																				<tr>
-																									<td class="day" style="color:#1e52bd; font-family:'Raleway', Arial,sans-serif; font-size:40px; line-height:44px; text-align:left; font-weight:bold;"><div mc:edit="text_9">17</div></td>
-																								</tr>
-																							</tbody></table>
-																						</th>
-																						<th class="column-empty" width="10" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr;"></th>
-																						<th class="column-top" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
-																							<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																								<tbody><tr>
-																									<td class="h5-black black" style="font-family:'Raleway', Arial,sans-serif; font-size:14px; line-height:18px; text-align:left; padding-bottom:15px; text-transform:uppercase; font-weight:bold; color:#000000;"><div mc:edit="text_10">Headline</div></td>
-																								</tr>
-																								<tr>
-																									<td class="text black" style="font-family:'Raleway', Arial,sans-serif; font-size:14px; line-height:22px; text-align:left; color:#000000;"><div mc:edit="text_11">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo dolore setr tempore alipsinung.</div></td>
-																								</tr>
-																							</tbody></table>
-																						</th>
-																						<th class="column-empty" width="10" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr;"></th>
-																						<th class="column-top" width="156" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
-																							<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																								<tbody><tr>
-																									<td align="right">
-																										<table class="m-left" border="0" cellspacing="0" cellpadding="0">
-																											<tbody><tr>
-																												<td class="text-button button-blue" style="font-family:'Kreon', Georgia, serif; font-size:14px; line-height:18px; text-align:center; padding:10px 30px; border-radius:20px; background:transparent; color:#1e52bd; border:1px solid #1e52bd;"><div mc:edit="text_12"><a href="#" target="_blank" class="link-blue" style="color:#1e52bd; text-decoration:none;"><span class="link-blue" style="color:#1e52bd; text-decoration:none;">View More</span></a></div></td>
-																											</tr>
-																										</tbody></table>
-																									</td>
-																								</tr>
-																							</tbody></table>
-																						</th>
-																					</tr>
-																				</tbody></table>
-																			</td>
-																		</tr>
-																	</tbody></table>
-																</td>
-															</tr>
-															<tr>
-																<td class="pb40" style="padding-bottom:40px;">
-																	<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																		<tbody><tr>
-																			<th class="column-top" width="60" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
-																				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																					<tbody><tr>
-																						<td class="date" style="color:#000000; font-family:'Raleway', Arial,sans-serif; font-size:12px; line-height:16px; text-align:left; padding-bottom:6px;"><div mc:edit="text_13">Sept</div></td>
-																					</tr>
-																						<tr>
-																						<td class="day" style="color:#1e52bd; font-family:'Raleway', Arial,sans-serif; font-size:40px; line-height:44px; text-align:left; font-weight:bold;"><div mc:edit="text_14">17</div></td>
-																					</tr>
-																				</tbody></table>
-																			</th>
-																			<th class="column-empty" width="10" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr;"></th>
-																			<th class="column-top" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
-																				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																					<tbody><tr>
-																						<td class="h5-black black" style="font-family:'Raleway', Arial,sans-serif; font-size:14px; line-height:18px; text-align:left; padding-bottom:15px; text-transform:uppercase; font-weight:bold; color:#000000;"><div mc:edit="text_15">Headline</div></td>
-																					</tr>
-																					<tr>
-																						<td class="text black" style="font-family:'Raleway', Arial,sans-serif; font-size:14px; line-height:22px; text-align:left; color:#000000;"><div mc:edit="text_16">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo dolore setr tempore alipsinung.</div></td>
-																					</tr>
-																				</tbody></table>
-																			</th>
-																			<th class="column-empty" width="10" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; direction:ltr;"></th>
-																			<th class="column-top" width="156" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal; vertical-align:top;">
-																				<table width="100%" border="0" cellspacing="0" cellpadding="0">
-																					<tbody><tr>
-																						<td align="right">
-																							<table class="m-left" border="0" cellspacing="0" cellpadding="0">
-																								<tbody><tr>
-																									<td class="text-button button-blue" style="font-family:'Kreon', Georgia, serif; font-size:14px; line-height:18px; text-align:center; padding:10px 30px; border-radius:20px; background:transparent; color:#1e52bd; border:1px solid #1e52bd;"><div mc:edit="text_17"><a href="#" target="_blank" class="link-blue" style="color:#1e52bd; text-decoration:none;"><span class="link-blue" style="color:#1e52bd; text-decoration:none;">View More</span></a></div></td>
-																								</tr>
-																							</tbody></table>
-																						</td>
-																					</tr>
-																				</tbody></table>
-																			</th>
-																		</tr>
-																	</tbody></table>
-																</td>
-															</tr>
-															<tr>
-																<td align="center">
-																	<table border="0" cellspacing="0" cellpadding="0">
-																		<tbody><tr>
-																			<td class="text-button button-blue2" style="font-family:'Kreon', Georgia, serif; font-size:14px; line-height:18px; text-align:center; padding:10px 30px; border-radius:20px; background:#1e52bd; color:#ffffff;"><div mc:edit="text_18"><a href="#" target="_blank" class="link-white" style="color:#ffffff; text-decoration:none;"><span class="link-white" style="color:#ffffff; text-decoration:none;">View All Events</span></a></div></td>
-																		</tr>
-																	</tbody></table>
-																</td>
-															</tr>
-														</tbody></table>
-													</td>
-												</tr>
-											</tbody></table>
-										</td>
-									</tr>
-									<tr>
-										<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="images/free_blue_white.jpg" width="650" height="160" mc:edit="image_9" style="max-width:650px;" border="0" alt=""></td>
-									</tr>
-								</tbody></table>
-							</div>
+
 							<!-- END Section 2 -->
 
 							<!-- Section 3 -->
-							<div mc:repeatable="Select" mc:variant="Section 3">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ebebeb">
-									<tbody><tr>
 
-									</tr>
-								</tbody></table>
-							</div>
 							<!-- END Section 3 -->
 
 							<!-- Section 4 -->
@@ -357,7 +226,7 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 																					<tbody><tr>
 																						<td bgcolor="#ffffff" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dde8fd" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;"><tbody><tr><td bgcolor="#dde8fd" height="40" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;">&nbsp;</td></tr></tbody></table>
 </td>
-																						<td class="img-center" valign="top" width="80" style="font-size:0pt; line-height:0pt; text-align:center;"><img src="images/free_person_image.jpg" width="80" height="80" mc:edit="image_18" style="max-width:80px;" border="0" alt=""></td>
+																						<td class="img-center" valign="top" width="80" style="font-size:0pt; line-height:0pt; text-align:center;"><img src="https://via.placeholder.com/80" width="80" height="80" mc:edit="image_18" style="max-width:80px;" border="0" alt=""></td>
 																						<td bgcolor="#ffffff" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dde8fd" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;"><tbody><tr><td bgcolor="#dde8fd" height="40" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;">&nbsp;</td></tr></tbody></table>
 </td>
 																					</tr>
@@ -394,7 +263,7 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 																					<tbody><tr>
 																						<td bgcolor="#ffffff" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dde8fd" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;"><tbody><tr><td bgcolor="#dde8fd" height="40" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;">&nbsp;</td></tr></tbody></table>
 </td>
-																						<td class="img-center" valign="top" width="80" style="font-size:0pt; line-height:0pt; text-align:center;"><img src="images/free_person_image.jpg" width="80" height="80" mc:edit="image_20" style="max-width:80px;" border="0" alt=""></td>
+																						<td class="img-center" valign="top" width="80" style="font-size:0pt; line-height:0pt; text-align:center;"><img src="https://via.placeholder.com/80" width="80" height="80" mc:edit="image_20" style="max-width:80px;" border="0" alt=""></td>
 																						<td bgcolor="#ffffff" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dde8fd" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;"><tbody><tr><td bgcolor="#dde8fd" height="40" class="border" style="font-size:0pt; line-height:0pt; text-align:center; width:100%; min-width:100%;">&nbsp;</td></tr></tbody></table>
 </td>
 																					</tr>
@@ -456,9 +325,9 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 													<th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
 														<table class="center" border="0" cellspacing="0" cellpadding="0" style="text-align:center;">
 															<tbody><tr>
-																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="images/free_logo1.jpg" width="91" height="27" mc:edit="image_23" style="max-width:91px;" border="0" alt=""></td>
+																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="https://via.placeholder.com/91x27" width="91" height="27" mc:edit="image_23" style="max-width:91px;" border="0" alt=""></td>
 																<td class="content-spacing" width="45" style="font-size:0pt; line-height:0pt; text-align:left;"></td>
-																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="images/free_logo2.jpg" width="116" height="27" mc:edit="image_24" style="max-width:116px;" border="0" alt=""></td>
+																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="https://via.placeholder.com/91x27" width="116" height="27" mc:edit="image_24" style="max-width:116px;" border="0" alt=""></td>
 															</tr>
 														</tbody></table>
 													</th>
@@ -466,9 +335,9 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 													<th class="column" style="font-size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
 														<table class="center" border="0" cellspacing="0" cellpadding="0" style="text-align:center;">
 															<tbody><tr>
-																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="images/free_logo3.jpg" width="87" height="39" mc:edit="image_25" style="max-width:87px;" border="0" alt=""></td>
+																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="https://via.placeholder.com/91x27" width="87" height="39" mc:edit="image_25" style="max-width:87px;" border="0" alt=""></td>
 																<td class="content-spacing" width="45" style="font-size:0pt; line-height:0pt; text-align:left;"></td>
-																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="images/free_logo4.jpg" width="100" height="39" mc:edit="image_26" style="max-width:100px;" border="0" alt=""></td>
+																<td class="img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="https://via.placeholder.com/91x27" width="100" height="39" mc:edit="image_26" style="max-width:100px;" border="0" alt=""></td>
 															</tr>
 														</tbody></table>
 													</th>
@@ -481,23 +350,11 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 							<!-- END Section 8 -->
 
 							<!-- White Padder -->
-							<div mc:repeatable="Select" mc:variant="White Padder">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
-									<tbody><tr>
-										<td class="img mp30" style="padding-top: 70px; font-size:0pt; line-height:0pt; text-align:left;"></td>
-									</tr>
-								</tbody></table>
-							</div>
+
 							<!-- END White Padder -->
 
 							<!-- Blue Padder -->
-							<div mc:repeatable="Select" mc:variant="Blue Padder">
-								<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dde8fd">
-									<tbody><tr>
-										<td class="img mp30" style="padding-top: 70px; font-size:0pt; line-height:0pt; text-align:left;"><div mc:edit="text_54"></div></td>
-									</tr>
-								</tbody></table>
-							</div>
+
 							<!-- END Blue Padder -->
 
 
@@ -510,14 +367,14 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 												<td class="m-padder2 pb30" align="center" style="padding-bottom:30px;">
 													<table class="center" border="0" cellspacing="0" cellpadding="0" style="text-align:center;">
 														<tbody><tr>
-															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_facebook.png" width="26" height="26" mc:edit="image_27" style="max-width:26px;" border="0" alt=""></a></td>
-															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_twitter.png" width="26" height="26" mc:edit="image_28" style="max-width:26px;" border="0" alt=""></a></td>
-															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_gplus.png" width="26" height="26" mc:edit="image_29" style="max-width:26px;" border="0" alt=""></a></td>
-															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_youtube.png" width="26" height="26" mc:edit="image_30" style="max-width:26px;" border="0" alt=""></a></td>
-															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_instagram.png" width="26" height="26" mc:edit="image_31" style="max-width:26px;" border="0" alt=""></a></td>
-															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_pinterest.png" width="26" height="26" mc:edit="image_32" style="max-width:26px;" border="0" alt=""></a></td>
-															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_linkedin.png" width="26" height="26" mc:edit="image_33" style="max-width:26px;" border="0" alt=""></a></td>
-															<td class="img" width="26" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="images/ico4_rss.png" width="26" height="26" mc:edit="image_34" style="max-width:26px;" border="0" alt=""></a></td>
+															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_27" style="max-width:26px;" border="0" alt=""></a></td>
+															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_28" style="max-width:26px;" border="0" alt="" https:="" via.placeholder.com=""></a></td>
+															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_29" style="max-width:26px;" border="0" alt=""></a></td>
+															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_30" style="max-width:26px;" border="0" alt=""></a></td>
+															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_31" style="max-width:26px;" border="0" alt=""></a></td>
+															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_32" style="max-width:26px;" border="0" alt=""></a></td>
+															<td class="img" width="40" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_33" style="max-width:26px;" border="0" alt=""></a></td>
+															<td class="img" width="26" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="#" target="_blank"><img src="https://via.placeholder.com/27" width="26" height="26" mc:edit="image_34" style="max-width:26px;" border="0" alt=""></a></td>
 														</tr>
 													</tbody></table>
 												</td>
@@ -545,40 +402,65 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
 	</tbody></table>
 
 
-</body></html> `
+ </body></html> `
 
 // async..await is not allowed in global scope, must use a wrapper
-async function main(from,to,subject,text,html) {
+async function main(from,to,subject="",text="") {
+
+    // console.error(from,to,subject,text,html)
     // Generate test SMTP service account from ethereal.email
     // Only needed if you don't have a real mail account for testing
     let testAccount = await nodemailer.createTestAccount();
 
     // create reusable transporter object using the default SMTP transport
+    // let transporter = nodemailer.createTransport({
+    //     pool: true,
+    //     host: 'smtp.gmail.com',
+    //     port: 587,
+    //     secure: false, // true for 46s5, false for other ports
+    //     auth: {
+    //         user: "ticonlabs@gmail.com", // generated ethereal user
+    //         pass: "android1990" // generated ethereal password
+    //     }
+    // });
+
     let transporter = nodemailer.createTransport({
         pool: true,
-        host: 'smtp.gmail.com',
+        host: 'smtp.ethereal.email',
         port: 587,
         secure: false, // true for 46s5, false for other ports
         auth: {
-            user: "ticonlabs@gmail.com", // generated ethereal user
-            pass: "android1990" // generated ethereal password
+          user: testAccount.user, // generated ethereal user
+          pass: testAccount.pass  // generated ethereal password
         }
     });
 
+    let info;
+
+    if (to == "Ticonlabs@gmail.com"){
+    info = await transporter.sendMail({
+        from,
+        to,
+        subject,
+        text
+      });
+    }else{
+
     // send mail with defined transport object
-    let info = await transporter.sendMail({
-      from,
-      to,
-      subject,
-      text,
-      html: html_temp
-    });
+       info = await transporter.sendMail({
+        from,
+        to,
+        subject,
+        text,
+        html: html_temp
+      });
+    }
 
     console.log('Message sent: %s', info.messageId);
     // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
 
     // Preview only available when sending through an Ethereal account
-    //console.log('Preview URL: %s', nodemailer.getMessageUrl(info));
+    console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
     // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
 }
 

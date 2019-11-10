@@ -8,10 +8,16 @@ router.get('/', function(req, res, next) {
 });
 
  /* POST email server. */
- router.post('/send', function(req, res, next) {
-   let {email: {from, to, subject, text, html}} = req.body
-   console.log(actions.sendMail(from, to, subject, text, html))
-   res.json({ from, to, subject, text, html} );
+ router.post('/send/recipient', function(req, res, next) {
+   let {email: {from, to, subject, text}} = req.body
+   actions.sendMail(from, to)
+   res.json({ from, to, subject, text, error:false} );
+ });
+
+ router.post('/send/ticon', function(req, res, next) {
+   let {email: {from, to, subject, text}} = req.body
+   actions.sendMail(from, "Ticonlabs@gmail.com", subject, text)
+   res.json({ from, to, subject, text, error:false} );
  });
 
 module.exports = router;
