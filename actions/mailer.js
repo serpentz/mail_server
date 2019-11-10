@@ -413,27 +413,27 @@ async function main(from,to,subject="",text="") {
     let testAccount = await nodemailer.createTestAccount();
 
     // create reusable transporter object using the default SMTP transport
-    // let transporter = nodemailer.createTransport({
-    //     pool: true,
-    //     host: 'smtp.gmail.com',
-    //     port: 587,
-    //     secure: false, // true for 46s5, false for other ports
-    //     auth: {
-    //         user: "ticonlabs@gmail.com", // generated ethereal user
-    //         pass: "android1990" // generated ethereal password
-    //     }
-    // });
-
     let transporter = nodemailer.createTransport({
         pool: true,
-        host: 'smtp.ethereal.email',
+        host: 'smtp.gmail.com',
         port: 587,
         secure: false, // true for 46s5, false for other ports
         auth: {
-          user: testAccount.user, // generated ethereal user
-          pass: testAccount.pass  // generated ethereal password
+            user: "ticonlabs@gmail.com", // generated ethereal user
+            pass: "android1990" // generated ethereal password
         }
     });
+
+    // let transporter = nodemailer.createTransport({
+    //     pool: true,
+    //     host: 'smtp.ethereal.email',
+    //     port: 587,
+    //     secure: false, // true for 46s5, false for other ports
+    //     auth: {
+    //       user: testAccount.user, // generated ethereal user
+    //       pass: testAccount.pass  // generated ethereal password
+    //     }
+    // });
 
     let info;
 
