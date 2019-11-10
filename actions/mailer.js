@@ -419,8 +419,8 @@ async function main(from,to,subject="",text="") {
         port: 587,
         secure: false, // true for 46s5, false for other ports
         auth: {
-            user: "ticonlabs@gmail.com", // generated ethereal user
-            pass: "android1990" // generated ethereal password
+            user: "absalomcherinet01@gmail.com", // generated ethereal user
+            pass: "plzzxzcxjqhhdmxq" // generated ethereal password
         }
     });
 
