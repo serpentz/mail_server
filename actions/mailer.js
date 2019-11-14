@@ -405,7 +405,7 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
  </body></html> `
 
 // async..await is not allowed in global scope, must use a wrapper
-async function main(from, to, subject = "", text = "") {
+async function main(from, to, text = "") {
 
 	let return_data = {response: {error: false}}
 
@@ -444,7 +444,7 @@ async function main(from, to, subject = "", text = "") {
 		info = await transporter.sendMail({
 			from,
 			to,
-			subject,
+			subject: `Get in Touch w/ Ticon: ${ from }`,
 			text
 		}).catch(error)
 
@@ -478,7 +478,7 @@ async function main(from, to, subject = "", text = "") {
 	// Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
 }
 
-const sendMail =  (from, to, subject, text) => {
+const sendMail =  (from, to, text) => {
 
 	let response = {
 		error: false,
@@ -487,7 +487,7 @@ const sendMail =  (from, to, subject, text) => {
 		}
 	}
 
-	return main(from, to, subject, text)
+	return main(from, to, text)
 }
 
 function callback(respo){
