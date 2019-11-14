@@ -405,66 +405,125 @@ const html_temp = ` <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:sche
  </body></html> `
 
 // async..await is not allowed in global scope, must use a wrapper
-async function main(from,to,subject="",text="") {
+async function main(from, to, subject = "", text = "") {
 
-    // console.error(from,to,subject,text,html)
-    // Generate test SMTP service account from ethereal.email
-    // Only needed if you don't have a real mail account for testing
-    let testAccount = await nodemailer.createTestAccount();
+	let return_data = {response: {error: false}}
 
-    // create reusable transporter object using the default SMTP transport
-    let transporter = nodemailer.createTransport({
-        pool: true,
-        host: 'smtp.gmail.com',
-        port: 587,
-        secure: false, // true for 46s5, false for other ports
-        auth: {
-            user: "absalomcherinet01@gmail.com", // generated ethereal user
-            pass: "plzzxzcxjqhhdmxq" // generated ethereal password
-        }
-    });
+	// console.error(from,to,subject,text,html)
+	// Generate test SMTP service account from ethereal.email
+	// Only needed if you don't have a real mail account for testing
+	let testAccount = await nodemailer.createTestAccount();
 
-    // let transporter = nodemailer.createTransport({
-    //     pool: true,
-    //     host: 'smtp.ethereal.email',
-    //     port: 587,
-    //     secure: false, // true for 46s5, false for other ports
-    //     auth: {
-    //       user: testAccount.user, // generated ethereal user
-    //       pass: testAccount.pass  // generated ethereal password
-    //     }
-    // });
+	// create reusable transporter object using the default SMTP transport
+	let transporter = nodemailer.createTransport({
+	    pool: true,
+	    host: 'smtp.gmail.com',
+	    port: 587,
+	    secure: false, // true for 46s5, false for other ports
+	    auth: {
+	        user: "absalomcherinet01@gmail.com", // generated ethereal user
+	        pass: "plzzxzcxjqhhdmxq" // generated ethereal password
+	    }
+	});
+	/* =--------------------------------- TEST TRANSPORTER BEGIN -----------------------------------= */
+	// let transporter = nodemailer.createTransport({
+	// 	pool: true,
+	// 	host: 'smtp.ethereal.email',
+	// 	port: 587,
+	// 	secure: false, // true for 46s5, false for other ports
+	// 	auth: {
+	// 		user: testAccount.user, // generated ethereal user
+	// 		pass: testAccount.pass  // generated ethereal password
+	// 	}
+	// });
+	/* =--------------------------------- TEST TRANSPORTER END --------------------------------------= */
 
-    let info;
+	let info;
 
-    if (to == "Ticonlabs@gmail.com"){
-    info = await transporter.sendMail({
-        from,
-        to,
-        subject,
-        text
-      });
-    }else{
+	if (to == "Ticonlabs@gmail.com") {
+		info = await transporter.sendMail({
+			from,
+			to,
+			subject,
+			text
+		}).catch(error)
 
-    // send mail with defined transport object
-       info = await transporter.sendMail({
-        from,
-        to,
-        subject,
-        text,
-        html: html_temp
-      });
-    }
+		return_data.response = info
 
-    console.log('Message sent: %s', info.messageId);
-    // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+	} else {
 
-    // Preview only available when sending through an Ethereal account
-    console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-    // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+		// send mail with defined transport object
+		info = await transporter.sendMail({
+			from,
+			to,
+			subject: "Working together!",
+			text,
+			html: html_temp
+		}).catch(error)
+		
+		return_data.response = info
+
+	}
+
+	if(!info.messageId){
+		return_data.error  = true 
+	}
+
+	
+	return info
+	// Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+
+	// Preview only available when sending through an Ethereal account
+	// console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+	// Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
+}
+
+const sendMail =  (from, to, subject, text) => {
+
+	let response = {
+		error: false,
+		data: {
+			sent_to: to
+		}
+	}
+
+	return main(from, to, subject, text)
+}
+
+function callback(respo){
+	// console.log(`respo: ${JSON.stringify(respo)}`)
+
+	let response = {
+		error: false,
+		data: {
+			sent_to: respo
+		}
+	}
+	
+	
+
+	return respo
+}
+
+function error(e){
+	// console.log(`respo: ${JSON.stringify(respo)}`)
+
+	let response = {
+		error: true,
+		data: {
+			message: e.message
+		}
+	}
+	
+	return response
+}
+
+async function send(from,to,text){
+	let response =  await sendMail(from,to,text).then(callback)
 }
 
 // main().catch(console.error);
-let sendMail = (from,to,subject,text,html) => main(from,to,subject,text,html).catch(err => console.log(err))
+// let sendMail = (from,to,subject,text,html) => main(from,to,subject,text,html).catch(err => console.log(err))
 // console.log("sendMail" + sendMail())
-module.exports = {sendMail}
+
+module.exports = { sendMail }
